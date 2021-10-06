@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/log-sensors",
+      "handler": "log-sensors.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/log-sensors/count",
+      "handler": "log-sensors.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/log-sensors/:id",
+      "handler": "log-sensors.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/log-sensors",
+      "handler": "log-sensors.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/log-sensors/:id",
+      "handler": "log-sensors.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/log-sensors/:id",
+      "handler": "log-sensors.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

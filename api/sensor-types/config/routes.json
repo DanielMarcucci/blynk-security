@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sensor-types",
+      "handler": "sensor-types.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sensor-types/count",
+      "handler": "sensor-types.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sensor-types/:id",
+      "handler": "sensor-types.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sensor-types",
+      "handler": "sensor-types.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sensor-types/:id",
+      "handler": "sensor-types.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sensor-types/:id",
+      "handler": "sensor-types.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

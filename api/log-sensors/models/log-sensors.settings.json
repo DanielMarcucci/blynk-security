@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "log_sensors",
+  "info": {
+    "name": "Log Sensores"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sensor_type_id": {
+      "model": "sensor-types"
+    },
+    "value": {
+      "type": "decimal"
+    },
+    "level_flag": {
+      "type": "string"
+    }
+  }
+}
